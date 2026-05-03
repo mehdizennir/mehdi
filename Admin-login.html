@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Login - GymFit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="admin-body">
+
+  <div class="login-page">
+    <div class="login-card">
+
+      <p class="login-logo">GYMFIT</p>
+      <p class="login-sub">Admin Panel – Please sign in</p>
+
+
+      <div class="error-msg" id="loginError">
+        Invalid username or password. Please try again.
+      </div>
+
+      <form action="Admin-dashboard.html" method="POST">
+
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username" required
+            autocomplete="username" />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required
+            autocomplete="current-password" />
+        </div>
+
+        <div class="form-group">
+          <label
+            style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:.85rem; color:var(--text-muted);">
+            <input type="checkbox" name="remember" style="width:16px; height:16px; accent-color:var(--accent);" />
+            Remember me for 7 days
+          </label>
+        </div>
+
+        <button type="submit" class="admin-submit">Sign In</button>
+
+      </form>
+
+      <a href="index.html" class="back-link">← Return to main website</a>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
