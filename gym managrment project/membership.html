@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond GYM | Memberships</title>
+    <link rel="icon" type="image/png" href="images\images.png">
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Diamond GYM</h1>
+                <p>Train Hard. Stay Strong.</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="membership.html" class="active">Membership</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Membership Plans</h1>
+    </section>
+
+    <section>
+        <div class="cards">
+
+            <div class="card">
+                <h2>Bronze Plan</h2>
+                <p><strong>Price:</strong> 4000 DA / Month</p>
+                <p><strong>Duration:</strong> 1 Month</p>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>Cardio training area</li>
+                    <li>Locker room access</li>
+                    <li>Basic fitness guidance</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Silver Plan</h2>
+                <p><strong>Price:</strong> 8000 DA / Month</p>
+                <p><strong>Duration:</strong> 3 Months</p>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Access to group classes (Yoga, HIIT)</li>
+                    <li>Free fitness assessment</li>
+                    <li>Nutrition tips</li>
+                    <li>Sauna access</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Gold Plan</h2>
+                <p><strong>Price:</strong> 16000 DA / Month</p>
+                <p><strong>Duration:</strong> 1 Year</p>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Personal trainer sessions</li>
+                    <li>Unlimited group classes</li>
+                    <li>Priority equipment access</li>
+                    <li>Free gym merchandise</li>
+                    <li>Access to VIP training area</li>
+                    <li>Body composition analysis</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Register</h2>
+        <div class="cards" style="justify-content: center; display: flex;">
+            <div class="card" style="width: 100%; max-width: 600px; padding: 40px;">
+                <form>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="John Doe">
+
+                    <label>Email</label>
+                    <input type="email" placeholder="john@example.com">
+
+                    <label>Phone</label>
+                    <input type="tel" placeholder="(555) 555-5555">
+
+                    <label>Date of Birth</label>
+                    <input type="date">
+
+                    <label>Plan</label>
+                    <div style="margin-bottom: 20px;">
+                        <input type="radio" name="plan" id="bronze"><label for="bronze">Bronze</label>
+                        <input type="radio" name="plan" id="silver"><label for="silver">Silver</label>
+                        <input type="radio" name="plan" id="gold"><label for="gold">Gold</label>
+                    </div>
+
+                    <label style="display: flex; align-items: center; margin-bottom: 25px;">
+                        <input type="checkbox"> I accept the <a href="#" style="color:#ff6b6b; margin-left: 5px;">Terms & Conditions</a>
+                    </label>
+
+                    <button type="submit" style="width: 100%;">Register Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; margin-top: 20px;">
+        <a href="admin-login.html" style="color: #a0aec0; text-decoration: none; font-size: 14px; transition: color 0.3s;" onmouseover="this.style.color='#ff3c3c'" onmouseout="this.style.color='#a0aec0'">Admin Login</a>
+    </footer>
+</body>
+
+</html>

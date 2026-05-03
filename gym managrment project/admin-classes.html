@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="images\images.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Manage Classes</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <h1>PowerFit Admin</h1>
+                <p>Dashboard Center</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="admin-dashboard.html">Dashboard</a></li>
+                    <li><a href="admin-plans.html">Plans</a></li>
+                    <li><a href="admin-members.html">Members</a></li>
+                    <li><a href="admin-classes.html" class="active">Classes</a></li>
+                    <li><a href="admin-trainers.html">Trainers</a></li>
+                    <li><a href="index.html">Live Website</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="table-container">
+            <table>
+
+                <tr>
+                    <th>Class</th>
+                    <th>Trainer</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Duration</th>
+                    <th>Difficulty</th>
+                    <th>Actions</th>
+                </tr>
+
+                <tr>
+                    <td>Yoga</td>
+                    <td>Anna Miller</td>
+                    <td>Monday</td>
+                    <td>10:00</td>
+                    <td>1 Hour</td>
+                    <td>Beginner</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>CrossFit</td>
+                    <td>Mike Johnson</td>
+                    <td>Monday</td>
+                    <td>18:00</td>
+                    <td>1 Hour</td>
+                    <td>Advanced</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Boxing</td>
+                    <td>David Carter</td>
+                    <td>Tuesday</td>
+                    <td>17:00</td>
+                    <td>1 Hour</td>
+                    <td>Intermediate</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>HIIT Training</td>
+                    <td>Sarah Williams</td>
+                    <td>Wednesday</td>
+                    <td>19:00</td>
+                    <td>45 Minutes</td>
+                    <td>Advanced</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Pilates</td>
+                    <td>Emma Brown</td>
+                    <td>Thursday</td>
+                    <td>11:00</td>
+                    <td>1 Hour</td>
+                    <td>Beginner</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Strength Training</td>
+                    <td>Chris Walker</td>
+                    <td>Thursday</td>
+                    <td>16:00</td>
+                    <td>1 Hour</td>
+                    <td>Intermediate</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Zumba</td>
+                    <td>Maria Lopez</td>
+                    <td>Friday</td>
+                    <td>18:30</td>
+                    <td>1 Hour</td>
+                    <td>Beginner</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Bodybuilding</td>
+                    <td>James Anderson</td>
+                    <td>Saturday</td>
+                    <td>14:00</td>
+                    <td>1.5 Hours</td>
+                    <td>Advanced</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Kickboxing</td>
+                    <td>Ryan Scott</td>
+                    <td>Sunday</td>
+                    <td>12:00</td>
+                    <td>1 Hour</td>
+                    <td>Intermediate</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Add New Class</h2>
+
+        <div class="cards" style="justify-content: center; display: flex;">
+            <div class="card" style="width: 100%; max-width: 600px; padding: 40px;">
+                <form>
+
+                    <label>Class Name</label><br>
+                    <input type="text"><br>
+
+                    <label>Trainer</label><br>
+                    <input type="text"><br>
+
+                    <label>Day</label><br>
+                    <input type="text"><br>
+
+                    <label>Time</label><br>
+                    <input type="time"><br>
+
+                    <label>Duration</label><br>
+                    <input type="text"><br>
+
+                    <label>Difficulty</label><br>
+                    <input type="text"><br><br>
+
+                    <button type="submit">Add Class</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
